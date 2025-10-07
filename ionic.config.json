@@ -1,0 +1,7 @@
+{
+  "name": "Autonomo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
