@@ -1,0 +1,114 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title class="title">Contacto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding about-container">
+  
+  <div class="about-box">
+    <div class="avatar-section">
+      <div class="avatar-outer-ring"></div>
+      <div class="avatar-inner-ring"></div>
+      
+      <svg class="avatar-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="skinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffd1b3;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ffb088;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        
+        <circle cx="100" cy="100" r="95" fill="url(#avatarGradient)" />
+        
+        <circle cx="100" cy="95" r="45" fill="url(#skinGradient)" />
+        
+        <path d="M 55 75 Q 50 50 70 45 Q 85 40 100 42 Q 115 40 130 45 Q 150 50 145 75 Z" fill="#2c3e50" />
+        <ellipse cx="100" cy="70" rx="48" ry="30" fill="#2c3e50" />
+        
+        <circle cx="85" cy="90" r="5" fill="#2c3e50" />
+        <circle cx="115" cy="90" r="5" fill="#2c3e50" />
+        <circle cx="87" cy="88" r="2" fill="white" />
+        <circle cx="117" cy="88" r="2" fill="white" />
+        
+        <path d="M 75 80 Q 85 77 95 80" stroke="#2c3e50" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M 105 80 Q 115 77 125 80" stroke="#2c3e50" stroke-width="2" fill="none" stroke-linecap="round"/>
+        
+        <path d="M 100 95 Q 102 100 100 105" stroke="#d4a574" stroke-width="2" fill="none" stroke-linecap="round"/>
+        
+        <path d="M 85 110 Q 100 120 115 110" stroke="#2c3e50" stroke-width="3" fill="none" stroke-linecap="round"/>
+        
+        <rect x="40" y="150" width="120" height="50" fill="#3498db" rx="10" />
+        
+        
+      </svg>
+
+      <div class="online-indicator">
+        <div class="pulse-ring"></div>
+        <div class="online-dot"></div>
+      </div>
+    </div>
+
+    <h2 class="welcome-title">
+      Bienvenido a <span>mi contacto</span> 
+    </h2>
+    
+    <p class="description-text">
+      Este es mi contacto, espero que podamos conocernos más y compartir experiencias increíbles juntos.
+    </p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="card-icon">📧</div>
+        <div class="card-content">
+          <h3>Email</h3>
+          <p>Ldmogrovejo@sudamericano.edu.ec</p>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="card-icon">📱</div>
+        <div class="card-content">
+          <h3>Teléfono</h3>
+          <p>+593 99 123 4567</p>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="card-icon">📍</div>
+        <div class="card-content">
+          <h3>Ubicación</h3>
+          <p>Cuenca, Ecuador</p>
+        </div>
+      </div>
+
+      <a href="https://www.tiktok.com/@dagumodxd?_t=ZM-90Y0A5TXZim&_r=1" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+  <div class="info-card">
+    <div class="card-icon">🌐</div>
+    <div class="card-content">
+      <h3>Website</h3>
+      <p>Tiktok.com</p>
+    </div>
+  </div>
+</a>
+    </div>
+
+
+    <ion-button expand="block" color="light" routerLink="/perfil" shape="round" class="main-cta-button">
+      <svg class="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 18l6-6-6-6"/>
+      </svg>
+      Ir al Perfil
+      <svg class="button-icon-end" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </ion-button>
+
+    <div class="contact-footer">
+      <div class="footer-badge">
+        <span class="badge-icon">✨</span>
+        <span>Siempre disponible</span>
+      </div>
+    </div>
+  </div>
+</ion-content>
