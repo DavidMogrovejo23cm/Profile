@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cambiar información de Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-input
+      label="Nombre"
+      labelPlacement="stacked"
+      type="text"
+      placeholder="Ingrese su nombre"
+      [(ngModel)]="nombre"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      label="Email"
+      labelPlacement="stacked"
+      type="email"
+      placeholder="Ingrese su email"
+      [(ngModel)]="email"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      label="Teléfono"
+      labelPlacement="stacked"
+      type="tel"
+      placeholder="Ingrese su teléfono"
+      [(ngModel)]="telefono"
+    ></ion-input>
+  </ion-item>
+
+  <div class="ion-padding-top">
+    <ion-button expand="block" color="danger" (click)="cancel()">
+      Cancelar
+    </ion-button>
+    <ion-button expand="block" color="primary" (click)="confirm()">
+      Guardar Cambios
+    </ion-button>
+  </div>
+</ion-content>
