@@ -32,7 +32,6 @@ export class Modal3Component implements OnInit {
   constructor(private modalController: ModalController) { }
 
   ngOnInit() {
-    // Seleccionar la primera opción por defecto
     if (this.opciones.length > 0) {
       this.opcionSeleccionada = this.opciones[0];
     }

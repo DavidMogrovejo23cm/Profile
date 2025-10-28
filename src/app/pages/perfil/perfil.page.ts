@@ -36,7 +36,6 @@ export class PerfilPage implements OnInit {
   ngOnInit() {
   }
 
-  // Modal 1 - Editar información
   async modal() {
     const modal = await this.modalController.create({
       component: ModalComponent, 
@@ -56,7 +55,6 @@ export class PerfilPage implements OnInit {
     }
   }
 
-  // Modal 2 - Confirmación (por ejemplo, cerrar sesión)
   async modal2() {
     const modal = await this.modalController.create({
       component: Modal2Component,
@@ -77,7 +75,6 @@ export class PerfilPage implements OnInit {
     }
   }
 
-  // Modal 3 - Selección de opciones (por ejemplo, cambiar tema)
   async modal3() {
     const modal = await this.modalController.create({
       component: Modal3Component,
